@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2e3e420-d8fa-4acd-8d81-c8f9e238a6f4" name="Default Changelist" comment="" />
+    <list default="true" id="a2e3e420-d8fa-4acd-8d81-c8f9e238a6f4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webResources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webpack_research.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +29,9 @@
         <option value="tsconfig.json" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Ygz3AzyyIGyrVZbvGzt34MpHfs" />
   <component name="PropertiesComponent">
@@ -57,10 +73,22 @@
       <option name="presentableId" value="Default" />
       <updated>1583378823827</updated>
       <workItem from="1583378825182" duration="9068000" />
+      <workItem from="1583402234254" duration="17000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
