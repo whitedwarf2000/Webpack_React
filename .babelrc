@@ -5,3 +5,9 @@
     "@babel/plugin-syntax-dynamic-import"
   ]
 }
+
+// In order to config unit testing
+//{
+//  "presets": ["next/babel", "@babel/preset-env", "@babel/preset-react"],
+//  "plugins": ["babel-plugin-dynamic-import-node", "transform-class-properties", "@babel/plugin-transform-runtime"]
+//}
