@@ -1,31 +1,30 @@
 {
   "name": "webpack_research",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
-  "main": "webpack.config.js",
+  "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development --open",
+    "start": "webpack serve --mode development",
     "build": "webpack --mode production"
   },
   "keywords": [],
   "author": "Son Le",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.6.0",
-    "@babel/polyfill": "^7.0.0",
-    "@babel/preset-env": "^7.6.0",
-    "@babel/preset-react": "^7.0.0",
-    "babel-loader": "^8.0.6",
+    "@babel/core": "^7.14.3",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.14.4",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
     "html-webpack-plugin": "^3.2.0",
-    "node-sass": "^4.13.1",
-    "sass-loader": "^8.0.2",
-    "webpack": "^4.42.0",
-    "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.10.3"
+    "node-sass": "^6.0.0",
+    "sass-loader": "^12.0.0",
+    "webpack": "4.46.0",
+    "webpack-cli": "4.7.0",
+    "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
-    "@babel/plugin-proposal-class-properties": "^7.5.5",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0"
+    "react": "latest",
+    "react-dom": "latest"
   }
 }
