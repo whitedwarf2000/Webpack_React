@@ -4,7 +4,7 @@ const path = require('path');
 module.exports = {
   entry: __dirname + '/src/index.js',
   output: {
-    path: path.resolve(__dirname, './dist'),
+    path: path.resolve(__dirname, 'dist'),
     filename: '[name].[chunkhash].js',
   },
   module: {
@@ -39,10 +39,6 @@ module.exports = {
   devServer: {
     contentBase: './src/public',
     port: 3000,
-  },
-  resolve: {
-    modules: [path.resolve(__dirname, 'src'), path.resolve(__dirname, 'node_modules')],
-    extensions: ['.js']
   },
   devtool: 'eval-source-map'
 };
